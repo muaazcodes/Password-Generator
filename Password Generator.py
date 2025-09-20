@@ -77,12 +77,12 @@ def password_generator():
         print("Password generated:", password)
         password_var.set(password)
     else:
-        print("Error: Maximum total characters allowed is 8.")
-        password_var.set("Max 8 only")
+     password_var.set("Max 8 only")
 
 
 btn = tk.Button(root, text="Password Generate", font=('calibre',10,'bold'), bg="green", fg="white", command=password_generator)
 btn.pack(pady=10)
 
 root.mainloop()
+
 
