@@ -81,7 +81,8 @@ def password_generator():
         password_var.set("Max 8 only")
 
 
-btn = tk.Button(root, text="Generate Password", font=('calibre',10,'bold'), bg="green", fg="white", command=password_generator)
+btn = tk.Button(root, text="Password Generate", font=('calibre',10,'bold'), bg="green", fg="white", command=password_generator)
 btn.pack(pady=10)
 
 root.mainloop()
+
