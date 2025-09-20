@@ -53,7 +53,7 @@ No external libraries required.
 ## 📌 Notes
 
 * Minimum total password length is **8 characters**.
-* Invalid inputs (non-numeric values) will show an error message.
+
 
 ---
 
